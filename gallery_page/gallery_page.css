@@ -26,7 +26,7 @@
 
 .last {
   -webkit-box-ordinal-group: 13;
-  order: 12;
+  order: 13;
 }
 
 .align-top {
@@ -799,7 +799,8 @@ footer {
 
   }
   .product-image img {
-    height: 80vh;
+    height: 100vh;
+
   }
   .product-image img.active {
     display: block;
@@ -816,11 +817,11 @@ footer {
     margin: 0 0.75rem 0 0;
     flex-basis: 100%;
   }
-  .image-list li:nth-child(3) {
+  .image-list li:nth-child(4) {
     margin: 0;
   }
   .image-list img {
-    height: 10rem;
+    height: 20rem;
     width: 100%;
     -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
